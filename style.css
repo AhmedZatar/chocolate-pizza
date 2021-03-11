@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header nav ul li:first-child {
+    text-align: left;
+    position: relative;
+    right: 600px;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li h2 {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    font-style: oblique;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+header nav ul li:nth-child(3) {
+    position: relative;
+    right: 150px;
+    font-size: 10px;
+}
+
+header nav ul li img{
+    position: relative;
+    left: 600px;
+}
+
+hr {
+    border-top: 5px double grey;
+    position: relative;
+    bottom: 50px;
+
+  }
+
